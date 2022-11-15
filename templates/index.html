@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<title>Search Page</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <h1 style="text-align: center">Thyroid Disease Detection</h1>
+
+    <div class="form">
+        <form action="/predict" method="POST">
+            <p class="name"> <br></center>
+            <Center><b>Age</b></p>
+            <input type="number" name="age" id="age" placeholder="age" >
+            <p class="name"> <br></center>
+            <Center><b>Sex</b></p>
+            <input type="number" name="sex" id="sex" placeholder="Male-1, Female-0">
+            <p class="name"> <br></center>
+            <Center><b>TSH</b></p>
+            <input type="number" name="TSH" id="TSH" step="0.001" placeholder="0.0 to 25.0 mlU/L">
+            <p class="name"> <br></center>
+            <Center><b>T3</b></p>
+            <input type="number" name="T3" id="T3" step="0.01" placeholder="0-7">
+            <p class="name"> <br></center>
+            <Center><b>TT4</b></p>
+            <input type="number" name="TT4" id="TT4" placeholder="15-300">
+            <p class="name"> <br></center>
+            <Center><b>T4U</b></p>
+            <input type="number" name="T4U" id="T4U" step="0.01" placeholder="0.0 to 3 mlU/L" >
+            <p class="name"> <br></center>
+            <Center><b>FTI</b></p>
+            <input type="number" name="FTI" id="FTI" placeholder="15-300">
+</select>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</div>
+{% endblock %}

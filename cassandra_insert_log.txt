@@ -1,0 +1,4 @@
+2022-11-15/16:54:49		cassandra cloud connection is started
+2022-11-15/16:54:54		cassandra connection to keyspace is started
+2022-11-15/16:55:02		connected  to keyspace  : thyroiduserdata
+2022-11-15/16:55:03		user input and result is inserted into  cassandra database 

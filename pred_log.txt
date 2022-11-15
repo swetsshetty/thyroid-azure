@@ -1,0 +1,7 @@
+2022-11-15/16:38:57		Start of prediction !!
+2022-11-15/16:54:14		Start of prediction !!
+2022-11-15/16:54:49		 pickle file for prediction  is loaded !!
+2022-11-15/16:54:49		  prediction complete !!
+2022-11-15/19:33:32		Start of prediction !!
+2022-11-15/19:35:57		 pickle file for prediction  is loaded !!
+2022-11-15/19:35:57		  prediction complete !!
